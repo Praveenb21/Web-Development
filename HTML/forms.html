@@ -22,13 +22,64 @@
         <button>Submit</button>
     </form>
     <hr>
-    <form action="https://www.google.com/search">
-        <label for="Search Box">Search on google:</label>
-        <input type="text" placeholder="Search here" name="q">
+    <form action="/action">
         <div>
             <input type="checkbox" name="age" id="age" />
             <label for="age">I am 18+</label>
         </div>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple" />
+            <!-- name: for grouping all option  -->
+             <!-- value: for highlighting which option is selected -->
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="banana" value="banana" />
+            <label for="banana">banana</label>
+            <input type="radio" name="fruit" id="mango" value="mango"/>
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="pineapple" value="pineapple"/>
+            <label for="pineapple">pineapple</label>
+        </div>
+        <br>
+        <!-- grouping of checkboxes -->
+        <!-- diff is that we can still select multiple option after grouping checkboxes 
+         but we do not do the same with radio -->
+        <div>
+            Choose your sub:
+            <input type="checkbox" name="sub" id="maths" value="maths"/>
+            <label for="maths">maths</label>
+            <input type="checkbox" name="sub" id="english" value="eng"/>
+            <label for="english">english</label>
+            <input type="checkbox" name="sub" id="science" value="sci"/>
+            <label for="science">science</label>
+            <input type="checkbox" name="sub" id="sst" value="sst"/>
+            <label for="sst">sst</label>
+        </div>
+        <button type="submit" >
+            <label for="submit">Submit</label>
+        </button>
+        <!-- Drop down we use them in the form of SELECT-->
+        <br>
+        Choose your profession:
+        <select name="profession" id="profession">
+            <option value="NIL">Select your option</option>
+            <option value="std">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+        <br/>
+        <br>
+        <hr>
+        <!-- Range input element -->
+        <label for="volume">Select your Volume label: </label>
+        <input type="range" id="volume" min="0" max="100" name="vol" step="10" value="60"/>
+        <!-- value: set the value on which form opens -->
+        <!-- step: increasing of range in terms of some values -->
+        <button>Submit</button>
+        <!-- Text AREA -->
+         <br />
+        <hr><br/>
+        <label for="feedback">your valueable feedback:</label>
+        <textarea id="feedback" name="feed" rows="5" cols="100" placeholder="Write your feedback here!"></textarea>
+        <button>Submit</button>
     </form>
 </body>
 </html>
