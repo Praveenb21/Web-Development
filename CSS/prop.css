@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    border: solid;
+    text-decoration: red underline;
+}
+h2{
+    font-weight: normal;
+    text-decoration: wavy overline;
+}
+h3{
+    text-decoration: double pink overline;
+}
+p{
+    color: blue;
+}
