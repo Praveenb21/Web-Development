@@ -62,3 +62,33 @@ div:nth-of-type(2n){
 h1::first-letter{
     color: green;
 }
+
+/* CSS - Cascading Stylesheet */
+
+/* Stylesheet: it means that how we style the sheet or html page like with text-align, text-decoration,font-family
+color, bg color etc.. properties. */
+
+/* Cascading: it means priortising the styling of html page with the last edited style.
+if we style h1 tag with font color blue and after some other lines we style the same tag with font color 
+green -> then the displayed style will be "Green." */
+
+/* Specificity: Priortising the style with this property.
+
+hundreds    tens       ones
+------     ------     ------
+ id       class,      element
+        attribute &  & pseudo element
+       pseudo class 
+
+here we check the value and priotise according to it. 
+order of applying rules: ID > CLASS > ELEMENT  
+More selectors > less selectors 
+that's why login and signup button didn't change while hovering. 
+
+When Specificity becomes same, we check the cascading property.
+
+Inline Specificity have high priority.
+<button style="background-color:red" id="login">Log in</button> this will priotise more than the style written in CSS file.
+this perticular way of styling any element is being avoided in projects because we can not make any changes after applying style.
+
+use color pallets for coloring website*/
