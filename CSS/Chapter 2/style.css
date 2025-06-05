@@ -23,3 +23,42 @@ h1,h3{
 nav ul li a{
     color: hotpink;
 }
+p+h3{
+    text-decoration: underline;
+}
+.uh+button{
+    color: cornflowerblue;
+    background-color: darkblue;
+}
+div>input{
+    background-color: darkgray;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+#myid p{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color:white
+}
+h3:hover{
+    text-decoration: none;
+}
+input[name="agreement"]:checked +label{
+    font-weight: bold;
+    color: red;
+}
+div:nth-of-type(2n){
+    background-color: yellow;
+}
+h1::first-letter{
+    color: green;
+}
