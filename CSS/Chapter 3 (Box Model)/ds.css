@@ -1,0 +1,47 @@
+/* h2{
+    display: inline;
+    background-color: red;
+}
+
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+span{
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px; /* Height and width will never set for inline element. */
+    width: 200px;
+    padding: 25px;
+    margin: 20px; /* padding is done only on left and right side, it overlaps on top and bottom side. And it is done also with margin element.  */
+}
+div{
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px; 
+    width: 200px;
+    padding: 25px;
+    margin: 20px;
+}
+.imp{
+    color: green;
+}
+section{
+    text-align: center;
+}
+
+#size{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+/* display: inline-block;
+This elements shows that the style applying on element is as a block element but they 
+behave like an inline element (comes in single line).
+
+Display: none;
+It means we have to remove element or to hide. */
+
+/* As we know heading element is a block element and span is a inline element 
+but we can change their property by using display element in css as we have used above. */

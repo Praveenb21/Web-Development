@@ -1,0 +1,36 @@
+h1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    margin: 50px;
+    font-size: 20px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+    font-size: .5em;
+    padding: 1em;
+}
+button{
+    font-size: 5px;
+    border-radius: 15px;
+}
+
+/* Units ~ Percentage
+width: 33.33% || Relative to the parent size.
+child nested element of above element (parent) 
+
+~ em
+Font size of parent, in case of typographical properties like font-size, and font size of element itself, in case 
+of other properties like width/padding/margin.
+
+padding is set according to the font size of their element & doesn't depent on parent. */
