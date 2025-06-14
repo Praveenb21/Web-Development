@@ -1,0 +1,8 @@
+div{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: greenyellow;
+    margin: 10px auto;
+    background-image: url("/Users/praveenbhagour/Downloads/bgimg.jpg");
+}
